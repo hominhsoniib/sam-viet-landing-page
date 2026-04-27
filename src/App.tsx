@@ -84,6 +84,7 @@ const Navbar = () => {
           <div className="w-10 h-10 bg-[#1B4332] rounded-full flex items-center justify-center shadow-md">
             <span className="text-[#FFD700] font-playfair font-bold text-xl uppercase">SV</span>
           </div>
+          {/* ✅ CẬP NHẬT TÊN THƯƠNG HIỆU TẠI HEADER */}
           <span className="text-2xl font-playfair font-bold tracking-tighter uppercase text-[#1B4332]">SÂM VIỆT</span>
         </div>
 
@@ -130,7 +131,7 @@ const Hero = () => (
     <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
       <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }}>
         <span className="inline-block text-[#40916C] font-bold tracking-[0.4em] uppercase text-[10px] mb-6">Tinh túy Sâm Bố Chính Tây Ninh</span>
-        <h1 className="text-6xl lg:text-[5.5rem] font-playfair italic leading-[1.1] text-[#1B4332] mb-8">
+        <h1 className="text-6xl lg:text-[5rem] font-playfair italic leading-[1.1] text-[#1B4332] mb-8">
           Sức Khỏe <br/> <span className="text-[#40916C] not-italic">Đại Chúng.</span>
         </h1>
         <p className="text-lg text-[#1B4332]/70 mb-10 max-w-xl leading-relaxed">
@@ -258,7 +259,7 @@ const Testimonials = () => (
   </section>
 );
 
-// --- Thành phần: Footer (Đã cập nhật Địa chỉ & Thông tin liên hệ mới) ---
+// --- Thành phần: Footer ---
 const Footer = () => (
   <footer className="bg-[#F8F9F8] text-[#1B4332] pt-32 pb-16 relative border-t border-gray-100">
     <div className="container mx-auto px-6 relative z-10">
@@ -269,6 +270,7 @@ const Footer = () => (
             <div className="w-10 h-10 bg-[#1B4332] rounded-full flex items-center justify-center">
               <span className="text-[#FFD700] font-playfair font-bold text-xl uppercase">SV</span>
             </div>
+            {/* ✅ CẬP NHẬT TÊN THƯƠNG HIỆU TẠI FOOTER */}
             <span className="text-2xl font-playfair font-bold tracking-tighter uppercase">SÂM VIỆT</span>
           </div>
           <p className="text-[#1B4332]/60 mb-10 max-w-sm font-light leading-relaxed">
@@ -320,6 +322,7 @@ const Footer = () => (
       </div>
 
       <div className="pt-12 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-8">
+        {/* ✅ CẬP NHẬT TÊN THƯƠNG HIỆU TẠI BẢN QUYỀN */}
         <p className="text-gray-400 text-[10px] uppercase tracking-[0.3em] font-bold italic">© 2026 SÂM VIỆT — Tự hào sức khỏe Việt Nam.</p>
         <div className="flex gap-10 text-[10px] font-bold tracking-[0.4em] uppercase opacity-40">
            TÂM — TÍN — TINH
